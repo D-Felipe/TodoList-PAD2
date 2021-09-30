@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { KeyboardAvoidingView, Platform, Keyboard } from "react-native";
 import { TextInput } from "react-native-paper";
 
-import { Creators as TaskActions } from "../../Store/Ducks/Tasks";
+import { Creators as TaskActions } from "../../store/ducks/tasks";
 import {
   StyledView,
   StyledTextInput,
