@@ -50,8 +50,8 @@ function editTask({ route, navigation }) {
           mode="outlined"
           value={taskTitle}
           onChangeText={(text) => setTaskTitle(text)}
-          maxLength={20}
-          right={<TextInput.Affix text="/20" />}
+          maxLength={60}
+          right={<TextInput.Affix text="/60" />}
         />
         <StyledTextInput_
           label="Descrição"
@@ -62,8 +62,8 @@ function editTask({ route, navigation }) {
           multiline={true}
           scrollEnable={true}
           blurOnSubmit={true}
-          maxLength={100}
-          right={<TextInput.Affix text="/100" />}
+          maxLength={280}
+          right={<TextInput.Affix text="/280" />}
         />
         <StyledView_>
           <StyledButton
