@@ -11,7 +11,7 @@ import {
   StyledButton,
 } from "./styles";
 
-function addTask() {
+function addTask({ navigation }) {
   const [taskTitle, setTaskTitle] = useState("");
   const [taskDescription, setTaskDescription] = useState("");
 

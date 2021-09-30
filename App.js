@@ -1,9 +1,15 @@
-import React from 'react';
+import React from "react";
+import { Provider } from "react-redux";
 
-import Routes from './src/routes/routes'
+import store from "./src/Store";
+import Routes from "./src/routes/routes";
 
-export default function App() {
+function App() {
   return (
-    <Routes />
+    <Provider store={store}>
+      <Routes />
+    </Provider>
   );
 }
+
+export default App;

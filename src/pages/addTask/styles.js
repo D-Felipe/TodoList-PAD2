@@ -1,5 +1,5 @@
-import styled from 'styled-components/native';
-import { TextInput, Button } from 'react-native-paper';
+import styled from "styled-components/native";
+import { TextInput, Button } from "react-native-paper";
 
 export const StyledView = styled.View`
   flex: 1;
@@ -22,7 +22,7 @@ export const StyledTextInput_ = styled(TextInput)`
   width: 95%;
   height: 200px;
   margin: 10px;
-  
+
   font-size: 16px;
 `;
 export const StyledButton = styled(Button)`

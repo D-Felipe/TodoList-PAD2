@@ -12,7 +12,7 @@ import {
   StyledButton,
 } from "./styles";
 
-function editTask() {
+function editTask({ route, navigation }) {
   const { itemId, itemT, itemD } = route.params;
   const [taskTitle, setTaskTitle] = useState(itemT);
   const [taskDescription, setTaskDescription] = useState(itemD);
