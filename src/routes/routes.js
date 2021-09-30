@@ -24,7 +24,7 @@ function routes() {
                       }}
                 />
                 <Stack.Screen 
-                    name='AddTask'
+                    name='AddNewTask'
                     component={addTaskScreen}
                     options={{
                         title: 'Adicione uma tarefa',
